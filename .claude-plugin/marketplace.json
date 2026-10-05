@@ -1,0 +1,12 @@
+{
+  "name": "unfenced-plugins",
+  "description": "Unfenced web access for Claude",
+  "owner": { "name": "Unfenced" },
+  "plugins": [
+    {
+      "name": "unfenced",
+      "source": "./",
+      "description": "Read web pages through a real browser. Approved Unfenced account required during private preview."
+    }
+  ]
+}

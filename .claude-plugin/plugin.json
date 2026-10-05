@@ -1,0 +1,20 @@
+{
+  "name": "unfenced",
+  "displayName": "Unfenced",
+  "version": "0.1.1",
+  "description": "Fetch web pages through a real browser with source links. An approved Unfenced account is required during private preview.",
+  "author": { "name": "Unfenced", "url": "https://unfenced.ai" },
+  "homepage": "https://unfenced.ai/mcp",
+  "icon": "./assets/icon-512.png",
+  "documentationUrl": "https://unfenced.ai/mcp",
+  "supportUrl": "https://unfenced.ai/plugin-support",
+  "privacyPolicyUrl": "https://unfenced.ai/legal/privacy-policy",
+  "termsOfServiceUrl": "https://unfenced.ai/legal/terms-of-service",
+  "keywords": ["web", "browser", "research", "mcp"],
+  "mcpServers": {
+    "unfenced": {
+      "type": "http",
+      "url": "https://unfenced.ai/api/mcp"
+    }
+  }
+}
