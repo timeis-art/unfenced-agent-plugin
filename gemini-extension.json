@@ -1,11 +1,11 @@
 {
   "name": "unfenced",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fetch web pages through a real browser with source links. An approved Unfenced account is required during private preview.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "unfenced": {
-      "httpUrl": "https://unfenced.ai/api/mcp"
+      "httpUrl": "https://unfenced.ai/api/mcp?profile=reading"
     }
   }
 }
